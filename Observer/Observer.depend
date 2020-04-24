@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1587762179 source:d:\observer\main.cpp
+	<iostream>
+	"Subject.h"
+	"clocktimer.h"
+	"analogclock.h"
+	"digitalclock.h"
+
+1587766080 d:\observer\subject.h
+	<sstream>
+	<iostream>
+	<list>
+	<string>
+	"ISubject.h"
+	"IObserver.h"
+
+1587761301 d:\observer\isubject.h
+	"IObserver.h"
+	<list>
+
+1587754037 d:\observer\iobserver.h
+
+1587762224 d:\observer\clocktimer.h
+	"ChangeNotifier.h"
+	"Subject.h"
+
+1587760947 d:\observer\changenotifier.h
+	"IChangeNotifier.h"
+	"IObserver.h"
+
+1587761179 d:\observer\ichangenotifier.h
+	"IObserver.h"
+
+1587762172 d:\observer\analogclock.h
+	"Iwidget.h"
+	"IObserver.h"
+	<iostream>
+
+1587754037 d:\observer\iwidget.h
+
+1587762172 d:\observer\digitalclock.h
+	"IWidget.h"
+	"IObserver.h"
+
